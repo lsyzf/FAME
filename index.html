@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body>
+	<!-- PC页面 -->
+	<div class="swiper-container" id="container">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide page1">
+	        	<div class="left-content">
+	        		<img src="images/mes.png" class="mes"/>
+	        		<img src="images/logo.png" class="logo"/>
+	        		<div class="jingling2"></div>
+	        		<div class="jinling"></div>
+	        	</div>
+	        	<div class="right-content">
+	        		<div class="light">
+	        			<img src="images/pic1.png" class="pic-item1 animated fadeInDown" style=" -webkit-animation-delay:1s;"/>
+	        			<img src="images/pic2.png" class="pic-item2 animated fadeInDown" style=" -webkit-animation-delay:1s;"/>
+	        			<img src="images/pic3.png" class="pic-item3 animated fadeInDown" style=" -webkit-animation-delay:1s;"/>
+	        			<img src="images/pic4.png" class="pic-item4 animated fadeInDown" style=" -webkit-animation-delay:1s;"/>
+	        			<img src="images/pic5.png" class="pic-item5 animated fadeInDown" style=" -webkit-animation-delay:1s;"/>
+	        		</div>
+	        		<img src="images/wutai.png" class="wutai animated fadeInDown"/>
+	        		<img src="images/pepole.png" class="pepole animated fadeInUp"/>
+	        		<img src="images/flower.png" class="flower animated fadeIn"/>
+	        	</div>
+	        </div>
+	        <div class="swiper-slide page2">
+	        	<div class="tool animated fadeInDown">
+	        		<div class="tool-list">
+	        			<img src="images/ICON1.png"/>
+	        			<img src="images/round.png" class="round"/>
+	        		</div>
+	        		<div class="tool-list">
+	        			<img src="images/ICON2.png"/>
+	        			<div class="zui" style="background:url(./images/small.png) no-repeat;background-size:100%;background-position:center center;">
+	        				<img src="images/big.png"/>
+	        			</div>
+	        		</div>
+	        		<div class="tool-list">
+	        			<img src="images/ICON33.png" class="icon3"/>
+	        			<img src="images/hands.png" class="hands"/>
+	        		</div>
+	        		<div class="tool-list">
+	        			<img src="images/ICON4.png"/>
+	        			<img src="images/shanzi.png" class="shanzi"/>
+	        		</div>
+	        	</div>
+	        	<img src="images/fly.png" class="fly animated fadeInUp"/>
+	        </div>
+	        <div class="swiper-slide page3">
+	        	<div class="top">
+	        		<img src="images/red.png" class="red"/>
+	        		<img src="images/blue.png" class="blue"/>
+	        		<img src="images/yellow.png" class="yellow"/>
+	        		<img src="images/green.png" class="green"/>
+	        	</div>
+	        </div>
+	    </div>
+	    <!-- Add Pagination -->
+	    <div class="swiper-pagination"></div>
+	</div>
+	<!-- 手机页面 -->
+	<div class="warp">
+		<header class="header">
+			<a href="#"><img src="images/share.jpg"></a>
+		</header>
+		<main class="main">
+			<section>
+				<img src="images/section.png"/>
+			</section>
+		</main>
+	</div>
+</body>
+
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript">
+	var swiper = new Swiper('.swiper-container', {
+	    pagination: '.swiper-pagination',
+	    direction: 'vertical',
+	    slidesPerView: 1,
+	    paginationClickable: true,
+	    mousewheelControl: true
+	});
+</script>
+</html>

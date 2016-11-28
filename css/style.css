@@ -1,0 +1,501 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#contaner {
+  width: 100%;
+  height: 100%;
+}
+.page1 {
+  width: 100%;
+  height: 100%;
+  background: #60D5CD;
+}
+.page1 .left-content {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.page1 .left-content .mes {
+  width: 10%;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  display: block;
+}
+.page1 .left-content .logo {
+  width: 70%;
+  position: absolute;
+  left: 20%;
+  top: 150px;
+  display: block;
+}
+.page1 .left-content .jingling2 {
+  width: 21.4%;
+  height: 10%;
+  background: url(../images/jingling2.png) no-repeat;
+  background-position: 0 0;
+  background-size: 292px;
+  position: absolute;
+  left: 40%;
+  bottom: 15%;
+}
+.page1 .left-content .jinling {
+  width: 21.4%;
+  height: 10%;
+  background: url(../images/jinling.png) no-repeat;
+  background-position: 0 0;
+  background-size: 292px;
+  position: absolute;
+  left: 40%;
+  bottom: 5%;
+}
+.page1 .right-content {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.page1 .right-content .light {
+  width: 100%;
+}
+.page1 .right-content .light img {
+  width: 40%;
+  position: absolute;
+  z-index: 1;
+}
+.page1 .right-content .light .pic-item1 {
+  left: 0;
+  top: 0;
+}
+.page1 .right-content .light .pic-item2 {
+  left: 20%;
+  top: 0;
+}
+.page1 .right-content .light .pic-item3 {
+  left: 30%;
+  top: 0;
+}
+.page1 .right-content .light .pic-item4 {
+  left: 42%;
+  top: 0;
+}
+.page1 .right-content .light .pic-item5 {
+  right: 0;
+  top: 0;
+}
+.page1 .right-content .wutai {
+  width: 60%;
+  position: absolute;
+  display: block;
+  left: 20%;
+  top: 20%;
+}
+.page1 .right-content .pepole {
+  width: 70%;
+  position: absolute;
+  display: block;
+  left: 20%;
+  bottom: 0;
+}
+.page1 .right-content .flower {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  -webkit-animation-delay: 1.5s;
+}
+.page2 {
+  width: 100%;
+  height: 100%;
+  background: url(../images/bj2.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.page2 .tool {
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  left: 0;
+}
+.page2 .tool .tool-list {
+  width: 25%;
+  float: left;
+  position: relative;
+}
+.page2 .tool .tool-list img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+.page2 .tool .tool-list img.icon3 {
+  width: 51%;
+}
+.page2 .tool .tool-list img.round {
+  width: 55%;
+  position: absolute;
+  left: 22%;
+  top: -3%;
+  display: block;
+}
+.page2 .tool .tool-list img.hands {
+  position: absolute;
+  left: 32%;
+  top: 14.5%;
+  width: 26%;
+  -webkit-transform-origin-y: 0px;
+}
+.page2 .tool .tool-list img.shanzi {
+  position: absolute;
+  left: 40%;
+  top: 23%;
+  width: 32%;
+  -webkit-transform-origin-y: 80px;
+}
+.page2 .tool .tool-list .zui {
+  width: 22%;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+.page2 .tool .tool-list .zui img {
+  width: 100%;
+  display: block;
+}
+.page2 .tool .tool-list:hover .round {
+  -webkit-animation: rotate 1s linear infinite;
+}
+.page2 .tool .tool-list:hover .hands {
+  -webkit-animation: hand .5s linear infinite;
+}
+.page2 .tool .tool-list:hover .shanzi {
+  -webkit-animation: shan .5s linear infinite;
+}
+.page2 .tool .tool-list:hover .zui img {
+  -webkit-animation: zui .5s linear infinite;
+}
+.page2 .fly {
+  width: 25%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -15%;
+}
+.page3 {
+  width: 100%;
+  height: 100%;
+  background: url(../images/box3.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.page3 .top {
+  width: 100%;
+  height: 85%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.page3 .top img {
+  width: 25%;
+  height: 100%;
+  display: block;
+  float: left;
+}
+.page3 .top .red {
+  background: #d25131;
+}
+.page3 .top .blue {
+  background: #3598db;
+}
+.page3 .top .yellow {
+  background: #ffd811;
+}
+.page3 .top .green {
+  background: #1bbc9b;
+}
+@media screen and (max-width: 414px) {
+  #container {
+    display: none;
+    /*  .page1{
+     .left-content{
+       width:100%;
+       height:30%;
+       float:none;
+       position: initial;
+       .mes{
+         display:none;
+       }
+       .logo{
+         width: 52%;
+         height: 24%;
+         position: absolute;
+         top: 5%;
+         left: 25%;
+         z-index: 2;
+       }
+     }
+     .right-content{
+       width:100%;
+       height:70%;
+       float:none;
+       position: initial;
+       .light{
+         display:none;
+       }
+       .wutai{
+         width: 72%;
+         height: 46%;
+         position: absolute;
+         left: 16%;
+         top: 34%;
+       }
+       .pepole{
+         width:100%;
+         position: absolute;
+         left:0;
+         bottom:0;
+       }
+       .flower{
+         width: 100%;
+         height:100%;
+       }
+     }
+     .jingling2{
+       display:none;
+     }
+     .jinling{
+       display:none;
+     }
+   }
+   .page2{
+     .tool{
+       top:0;
+       .tool-list{
+         width: 50%;
+         float: left;
+         margin-top: 10%;
+         position: relative;
+         img{
+           width: 70%;
+           &.round{
+             width: 60%;
+             position: absolute;
+             left: 19%;
+             top: -1.5%;
+           }
+           &.icon3{
+             width:59.5%;
+           }
+           &.shou{
+             position: absolute;
+             left: 30%;
+             top: 14%;
+             width: 28%;
+           }
+         }
+       }
+     }
+     .fly{
+       width: 50%;
+       position: absolute;
+       left: 50%;
+       bottom: 0;
+       margin-left: -25%;
+     }
+   }
+   .page3{
+     .top{
+       height:80%;
+       overflow: hidden;
+       img{
+         width:50%;
+       }
+     }
+   } */
+  }
+  .warp {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .warp .header {
+    width: 100%;
+    height: 75px;
+    position: relative;
+    left: 0;
+    z-index: 2;
+  }
+  .warp .header a {
+    width: 100%;
+    display: block;
+  }
+  .warp .header a img {
+    width: 100%;
+    display: block;
+  }
+  .warp .main {
+    width: 100%;
+    -webkit-box-flex: 1;
+    position: relative;
+    overflow-y: scroll;
+  }
+  .warp .main section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .warp .main section img {
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (min-width: 415px) {
+  #container {
+    display: block;
+  }
+  .warp {
+    display: none;
+  }
+}
+@keyframes zui {
+  0% {
+    opacity: 0;
+  }
+  49.99% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  99.99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes hand {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  49.99% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(8deg);
+  }
+  99.99% {
+    -webkit-transform: rotate(8deg);
+  }
+  100% {
+    -webkit-transform: rotate(8deg);
+  }
+}
+@keyframes shan {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  49.99% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(8deg);
+  }
+  99.99% {
+    -webkit-transform: rotate(8deg);
+  }
+  100% {
+    -webkit-transform: rotate(8deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  12.49% {
+    -webkit-transform: rotate(0deg);
+  }
+  12.5% {
+    -webkit-transform: rotate(45deg);
+  }
+  24.99% {
+    -webkit-transform: rotate(45deg);
+  }
+  25% {
+    -webkit-transform: rotate(90deg);
+  }
+  37.49% {
+    -webkit-transform: rotate(90deg);
+  }
+  37.5% {
+    -webkit-transform: rotate(125deg);
+  }
+  49.99% {
+    -webkit-transform: rotate(125deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+  62.49% {
+    -webkit-transform: rotate(180deg);
+  }
+  62.5% {
+    -webkit-transform: rotate(215deg);
+  }
+  74.99% {
+    -webkit-transform: rotate(215deg);
+  }
+  75% {
+    -webkit-transform: rotate(270deg);
+  }
+  87.49% {
+    -webkit-transform: rotate(270deg);
+  }
+  87.5% {
+    -webkit-transform: rotate(315deg);
+  }
+  99.99% {
+    -webkit-transform: rotate(315deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
